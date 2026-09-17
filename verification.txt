@@ -1,0 +1,14 @@
+Local package verification; dependency caches reused from a prior fetch of the pinned revisions (shared Mathlib install, not committed).
+
+$ lake env lean --version
+Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)
+exit=0
+
+$ lake build
+Build completed successfully (3015 jobs).
+exit=0
+
+$ lake env lean Audit.lean
+'JSP000673.exists_equal_degree_three_edge_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+exit=0
+SCRIPT-EXIT 0
