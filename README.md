@@ -66,3 +66,41 @@ lake env lean Audit.lean   # axioms: [propext, Classical.choice, Quot.sound]
 
 `lake build` fetches the pinned dependencies itself; an existing Mathlib
 cache at the same revision is reused if present.
+
+---
+
+## Provenance and priority
+
+This repository re-hosts — **verbatim and byte-identical** — the Lean
+formalization package that was originally submitted on **2026-09-17**
+directly to `TheJustinSunPrize/awards` as
+[PR #513](https://github.com/TheJustinSunPrize/awards/pull/513)
+(commit
+[`62770dc1c1dfbdb05de49ef5c31941a875636c61`](https://github.com/TheJustinSunPrize/awards/pull/513/commits/62770dc1c1dfbdb05de49ef5c31941a875636c61),
+authored 2026-09-17T06:14:56Z by `sweetsky123`; PR opened
+2026-09-17T06:15:45Z).
+
+On **2026-09-20** the maintainers instructed submitters to host Lean source
+code in their own public repository and re-submit via the updated PR
+template ([maintainer comment on
+#513](https://github.com/TheJustinSunPrize/awards/pull/513#issuecomment-2782668315)),
+stating:
+
+> "Resubmitting will not reset your priority for award consideration. We
+> will assess priority based on the original source-code submission time or
+> the verifiable completion time of the proof in your repository, as
+> applicable — not the date of the replacement PR."
+
+Accordingly:
+
+- The **initial commit of this repository** (`1169a6d…`) replays the exact
+  nine files of the original `submissions/jsp-000673-sws/` directory, with
+  the original author identity and the original author/committer dates
+  preserved (2026-09-17T14:14:56+08:00 = 06:14:56Z, matching the original
+  commit). It is the **proof version selected for review** and the anchor
+  for the verifiable completion time.
+- Content identity with the original submission can be checked against the
+  [PR #513 "Files changed" view](https://github.com/TheJustinSunPrize/awards/pull/513/files)
+  (9 files, +314 insertions).
+- This provenance note was added afterwards (see commit history) and does
+  not touch any proof file.
