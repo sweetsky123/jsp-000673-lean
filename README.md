@@ -104,3 +104,19 @@ Accordingly:
   (9 files, +314 insertions).
 - This provenance note was added afterwards (see commit history) and does
   not touch any proof file.
+
+---
+
+## Outcome (2026-09-20)
+
+The registration PR ([#2111](https://github.com/TheJustinSunPrize/awards/pull/2111),
+which replaced #513 per the maintainer migration) was closed: the prize's
+current requirements call for **a complete solution of the original problem
+and a complete Lean formalization of that solution**; the high minimum
+degree case proved here is partial progress and does not qualify.
+
+This repository remains public as a record of the partial result. The
+mathematical credit for the full theorem stays with Chen–Ma
+(arXiv:2503.19569). If a complete formalization of the full theorem is
+ever produced, it would be announced and submitted fresh, assessed on its
+own completion timeline per the stated policy.
